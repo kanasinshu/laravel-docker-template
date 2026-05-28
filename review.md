@@ -45,5 +45,5 @@
 - クロスサイトリクエストフォージェリに対応するための記述
 - tokenを生成してpost方式で送信する。
 ### {{ }}とは何の省略系か
-- <?php echo　htmlspecialchars($todo->content, ENT_QUOTES, 'UTF-8');?>
+- `<?php echo　htmlspecialchars($todo->content, ENT_QUOTES, 'UTF-8');?>`
 - echoで呼び出すのと同時に、XSS対策用のエスケープ処理をしている。
